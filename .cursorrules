@@ -1,0 +1,22 @@
+You are an expert React TypeScript developer.
+
+Tech stack:
+- Vite + React 18
+- TypeScript strict mode
+- Redux Toolkit (RTK)
+- TanStack React Query
+- React Router v6
+- Tailwind CSS
+- React Hook Form + Zod
+- Recharts
+
+Coding rules:
+- Use functional components, hooks
+- Types go in @/types/ directory
+- RTK slices in @/store/
+- React Query hooks in @/hooks/
+- Components in @/components/ (reusable) or @/pages/ (route-level)
+- Use absolute imports with @/ alias
+- All forms use React Hook Form with Zod validation
+- Error boundaries for async operations
+- Always handle loading, error, empty states
